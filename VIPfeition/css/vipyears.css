@@ -1,0 +1,287 @@
+body{
+	margin: 0;
+	font: 12px arial,asimsun;
+}
+p,
+dl,
+dd{
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	font-weight: normal;
+}
+ol,
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+em{
+	font-style: normal;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.wrap{
+	min-width: 960px;
+	width: 960px;
+	margin: 0 auto;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearFix{
+	zoom: 1;
+}
+#header{
+	width: 100%;
+	height: 113px;
+	background: #f7f8f6;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+	width: 171px;
+	height: 54px;
+	background: url(.././img/logo1.png);
+}
+.header .nav{
+	float: right;
+	width: 238px;
+	line-height: 60px;
+	padding-bottom: 14px;
+}
+.header .nav a{
+	position: relative;
+	padding-right: 10px;
+	color: #666;
+}
+.header .nav .logoDownA{
+	position: relative;
+	padding-right: 22px;
+	z-index: 4;
+}
+/*.logoDownA em{
+	display: none;
+	position: absolute;
+	top: 15px;
+	right: 0;	
+	height: 85px;
+	padding-left: 11px;
+	padding-right: 28px;
+	width: 50px;
+	line-height: 25px;
+	background: #fff;
+	border: 1px solid #e1e1e1;
+}
+.logoDownA:hover{
+	height: 21px;
+	width: 76px;
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	border-bottom: none;
+}
+.logoDownA:hover em{
+	display: inline-block;
+}*/
+.header .logoBorder{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+	height: 12px;
+	background: url(.././img/logoborder.png);	
+}
+.header .logoDown{
+	position: absolute;
+	top: 4px;
+	right: 12px;
+	width: 8px;
+	height: 4px;
+	background: url(.././img/logodonwn.png);
+}
+#header .subNav{
+	width: 100%;
+	height: 39px;
+	background: url(.././img/bgnav.png) repeat-x;
+}
+.subNav a{
+	color: #fff;
+}
+.subMenu{
+	float: left;
+	margin-top: 5px;
+	padding-left: 10px;
+	font: bold 14px/34px "宋体";
+	
+}
+.subMenu a{
+	padding: 0 10px 0 16px;
+}
+.subMenu .subMenuActive{
+	display: inline-block;
+	padding: 0 9px 0 15px;
+	line-height: 32px;
+	border: 1px solid #dee0e6;
+	border-bottom: none;
+	border-top-color: #f3f1f1;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #333;
+	background: url(.././img/ahoverbj.png) repeat-x;
+}
+.subMenu a:hover{
+	display: inline-block;
+	padding: 0 9px 0 15px;
+	line-height: 32px;
+	border: 1px solid #dee0e6;
+	border-bottom: none;
+	border-top-color: #f3f1f1;
+	border-radius: 2px;
+	color: #333;
+	background: url(.././img/ahoverbj.png) repeat-x;
+}
+.subNav .guild{
+	float: right;
+	width: 103px;
+	height: 38px;
+	padding-bottom: 1px;
+	line-height: 38px;
+}
+.guild a{
+	position: relative;
+	padding-left: 11px;
+	text-decoration: underline;
+}
+.subNav .guildBorder{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3px;
+	height: 11px;
+	background: url(.././img/guildborder.png) no-repeat;
+}
+.subNav .guild a:hover{
+	text-decoration: none;
+}
+.title{
+	height: 31px;
+	width: 100%;
+	background: #fdfdfd;
+	border-bottom: 1px solid #f9f9f9;
+}
+.title1{
+	padding-left: 580px;
+	font-weight: bold;
+	color: #cd1a09;
+	line-height: 31px;
+}
+.title1 span{
+	display: inline-block;
+	margin: 0 10px;
+	height: 11px;
+	width: 3px;
+	vertical-align: middle;
+	background: url(.././img/vip_content_bg.png) 0 -986px;
+}
+.banner{
+	margin-top: 20px;
+}
+.section .h4{
+	height: 74px;
+	width: 960px;
+	font-size: 24px;
+	color: #cd1a09;
+	line-height: 74px;
+	font-style: italic;
+	font-family: "微软雅黑";
+	border-bottom: 1px solid #f2f2f2;
+}
+.list{
+	height: 86px;
+	padding: 26px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+.list li{
+	float: left;
+	height: 86px;
+	width: 304px;
+	margin-right: 15px;
+	border-right: 1px solid #f9f9f9;
+}
+.list .none{
+	border: none;
+	margin-right: 0;
+}
+.list img{
+	float: left;
+	height: 85px;
+	width: 85px;
+}
+.list div{
+	float: left;
+	padding-left: 16px;
+}
+.list .list1{
+	width: 168px;
+}
+.list .list2{
+	width: 193px;
+}
+.list .list3{
+	width: 200px;
+}
+.list strong{
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+}
+.list p{
+	line-height: 18px;
+}
+.banner2{
+	padding: 20px 0;
+	width: 960px;
+	height: 107px;
+}
+.footer{
+	margin-top: 20px;
+	padding-top: 23px;
+	height: 70px;
+	border-top: 1px solid #cccccc;
+	text-align: center;
+}
+.footer nav a{
+	font-weight: bold;
+	padding-right: 12px;
+}
+.footer p{
+	padding-top: 10px;
+}
+.footer p a{
+	padding-right: 24px;
+}
+.footer p span{
+	display: inline-block;
+	padding-left: 9px;
+	height: 18px;
+	width: 15px;
+	vertical-align: middle;
+	background: url(.././img/sp_bg.png) no-repeat -185px -135px;
+}

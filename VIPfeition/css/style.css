@@ -1,0 +1,738 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	font: 12px simsun;
+}
+p,
+dl,
+dd{
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0;
+	font-weight: normal;
+}
+ol,
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+em{
+	font-style: normal;
+}
+a:hover{
+	text-decoration: underline;
+}
+.wrap{
+	width: 960px;
+	margin: 0 auto;
+}
+.clearFix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearFix{
+	zoom: 1;
+}
+#header{
+	width: 100%;
+	height: 113px;
+	background: #f7f8f6;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+	width: 171px;
+	height: 54px;
+	background: url(.././img/logo1.png);
+}
+.header .nav{
+	float: right;
+	width: 238px;
+	line-height: 60px;
+	padding-bottom: 14px;
+}
+.header .nav a{
+	position: relative;
+	padding-right: 10px;
+	color: #666;
+}
+.header .nav .logoDownA{
+	padding-right: 22px;
+}
+.header .logoBorder{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+	height: 12px;
+	background: url(.././img/logoborder.png);	
+}
+.header .logoDown{
+	position: absolute;
+	top: 4px;
+	right: 12px;
+	width: 8px;
+	height: 4px;
+	background: url(.././img/logodonwn.png);
+}
+#header .subNav{
+	width: 100%;
+	height: 39px;
+	background: url(.././img/bgnav.png) repeat-x;
+}
+.subNav a{
+	color: #fff;
+}
+.subMenu{
+	float: left;
+	margin-top: 5px;
+	padding-left: 10px;
+	font: bold 14px/34px "宋体";
+	
+}
+.subMenu a{
+	padding: 0 10px 0 16px;
+}
+.subMenu .subMenuActive{
+	display: inline-block;
+	padding: 0 9px 0 15px;
+	line-height: 32px;
+	border: 1px solid #dee0e6;
+	border-bottom: none;
+	border-top-color: #f3f1f1;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #333;
+	background: url(.././img/ahoverbj.png) repeat-x;
+}
+.subMenu a:hover{
+	display: inline-block;
+	padding: 0 9px 0 15px;
+	line-height: 32px;
+	border: 1px solid #dee0e6;
+	border-bottom: none;
+	border-top-color: #f3f1f1;
+	border-radius: 2px;
+	color: #333;
+	background: url(.././img/ahoverbj.png) repeat-x;
+}
+.subNav .guild{
+	float: right;
+	width: 103px;
+	height: 38px;
+	padding-bottom: 1px;
+	line-height: 38px;
+}
+.guild a{
+	position: relative;
+	padding-left: 11px;
+	text-decoration: underline;
+}
+.subNav .guildBorder{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 3px;
+	height: 11px;
+	background: url(.././img/guildborder.png) no-repeat;
+}
+.subNav .guild a:hover{
+	text-decoration: none;
+}
+#section{
+	width: 100%;
+	background: url(.././img/bannerbj.png) repeat-x;
+}
+.banner{
+	padding-top: 19px;
+	height: 286px;
+}
+.login{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	width: 244px;
+	height: 279px;
+	border: 2px solid #cd1a09;
+	border-top-width: 5px;
+}
+.loginDiv{
+	width: 208px;
+	height: 141px;
+	padding: 24px 18px 3px;
+	background: #f7f7f7;
+}
+.loginBar{
+	display: block;
+	margin: 0 42px 17px;
+	width: 122px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #36627f;
+	border: 1px solid #d2dfe7;
+	border-radius: 3px;
+	background: url(.././img/logginbarbj.png) repeat-x;
+}
+.loginNote{
+	width: 208px;
+	line-height: 19px;
+	font-size: 15px;
+	font-weight: bold;	
+}
+.loginDiv span{
+	float: right;
+	line-height: 28px;
+}
+.loginDiv span a{
+	color: #027fd1;
+}
+.loginBar span{
+	float: right;
+	line-height: 28px;
+}
+.loginBar span a{
+	color: #027fd1;
+}
+.regsiter{
+	float: left;
+	height: 111px;
+	text-align: center;
+	background: url(.././img/loginborderbj.png) repeat-x #fcfcfc;
+}
+.regsiterBar{
+	display: block;
+	margin: 22px 30px 12px;
+	width: 184px;
+	height: 43px;
+	background: url(.././img/regsiterBar.png);
+}
+.regsiter p a{
+	color: #027FD1;
+}
+.regsiter p span{
+	color: #cd1a09;
+}
+.bannerImg{
+	float: right;
+	position: relative;
+	width: 702px;
+	height: 286px;
+}
+.bannerIco{
+	position: absolute;
+	width: 702px;
+	height: 286px;
+	background: url(.././img/bannner.png);
+}
+.bannerNote{
+	position: absolute;
+	bottom: 0;
+	width: 135px;
+	padding-top: 3px;
+	margin-right: 3px;
+	background: #cfd4e9;
+	border: 1px solid #c8c0a1;
+	font: bold 12px/20px "宋体";
+	text-align: center;
+}
+.bannerNote1{
+	left: 0;
+	
+}
+.bannerNote2{
+	left: 141px;
+}
+.bannerNote3{
+	left: 282px;
+	height: 5px;
+	border: none;
+	background: #ae363e;
+	font-size: 0;
+}
+.bannerNote4{
+	left: 423px;
+}
+.bannerNote:hover{
+	height: 5px;
+	border: none;
+	background: #ae363e;
+	font-size: 0;
+}
+.left{
+	float: left;
+} 
+.left>ul{
+	width: 709px;
+	height: 802px;
+}
+.privilege{
+	padding-top: 21px;
+}
+.privilege .h3{
+	width: 709px;
+	height: 34px;
+}
+.h3 .title{
+	float: left;
+	height: 24px;
+	width: 95px;
+	background: url(.././img/sp_bg.png) no-repeat 0 -184px;
+}
+.h3 span{
+	float: right;
+	padding-top: 2px;
+	font-size: 12px;
+}
+.h3 a{
+	color: #027fd1;
+}
+.privilege{
+	height: 207px;
+	background: url(.././img/box_bg.png) no-repeat 0 bottom;
+}
+.ulList>li{
+	float: left;
+	width: 176px;
+	margin-left: 1px;
+}
+.privilege .feitionList{
+	margin: 0;
+}
+.feitionList>a{
+	float: left;
+	width: 174px;
+	height: 177px;
+	margin-left: 1px;
+	text-decoration: none;
+	background: url(.././img/sp_img.png) no-repeat;
+}
+.privilege .ico2{
+	margin-left: 3px;
+	background-position: -177px 0;
+}
+.privilege .ico3{
+	margin-left: 3px;
+	background-position: -354px 0;
+}
+.privilege .ico4{
+	margin-left: 4px;
+	background-position: -531px 0;
+}
+.privilege .ico1:hover{
+	background-position: 0 -174px;
+}
+.privilege .ico2:hover{
+	background-position: -177px -174px;
+}
+.privilege .ico3:hover{
+	background-position: -354px -174px;
+}
+.privilege .ico4:hover{
+	background-position: -531px -174px;
+}
+.privilege strong{
+	display: block;
+	padding-left: 12px;
+	padding-bottom: 1px;
+	line-height: 26px;
+	font-size: 15px;
+}
+.privilege span{
+	display: block;
+	padding-left: 12px;
+	line-height: 22px;
+	font-size: 12px;
+}
+.privilege .number{
+	background-position: 0 -212px;
+}
+.numberList>a{
+	display: block;
+	height: 44px;
+	padding-left: 50px;
+	padding-top: 3px;
+	line-height: 41px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+.numberList em{
+	color: #fb7c00;
+}
+.numberList .mark{
+	position: relative;
+	background: #fafafa;
+}
+.numberList span{
+	position: absolute;
+	left: 10px;
+	top: 8px;
+	height: 31px;
+	width: 31px;
+	background: url(.././img/sp_icon.png) no-repeat 0 -504px;
+}
+.numberList .two{
+	background-position: 0 -606px;
+}
+.numberList .three{
+	background-position: 0 -716px;
+}
+.numberList .four{
+	background-position: 0 -818px;
+}
+.numberList a:hover{
+	background-color: #fcb419;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.numberList a:hover em{
+	color: #FFFFFF;
+}
+.numberList a:hover .one{
+	background-position: 0 -555px;
+}
+.numberList a:hover .two{
+	background-position: 0 -657px;
+}
+.numberList a:hover .three{
+	background-position: 0 -767px;
+}
+.numberList a:hover .four{
+	background-position: 0 -869px;
+}
+ .privilege .only{
+	background-position: 0 -240px;
+}
+.onlyList a{
+	position: relative;
+	display: block;	
+	width: 176px;
+	height: 165px;
+}
+.onlyList img{
+	position: absolute;
+	left: 0;
+	top: 52px;
+	width: 176px;
+	height: 109px;
+}
+.onlyList a:hover{
+	text-decoration: none;
+	border-bottom: 8px solid #CD1A09;
+}
+.lifeList a{
+	position: relative;
+	display: block;	
+	width: 176px;
+	height: 165px;
+}
+.lifeList img{
+	position: absolute;
+	left: 10px;
+	top: 69px;
+	width: 154px;
+	height: 80px;
+	border: 1px solid #e7e7e7;
+}
+.lifeList a:hover{
+	text-decoration: none;
+	border-bottom: 8px solid #CD1A09;
+}
+.right{
+	float: right;
+	width: 228px;
+	height: 100%;
+	margin-top: 20px;
+	border-left: 2px solid #f4f4f4;
+}
+.rightBj{
+	float: right;
+	width: 227px;
+	height: 892px;
+	background: #fafafa;
+}
+.rightBj .h4{
+	height: 35px;
+}
+.rightBj .h4 span{
+	float: left;
+	margin-left: 7px;
+	margin-top: 8px;
+	width: 28px;
+	height: 27px;
+	background: url(.././img/sp_icon.png) left -1032px;
+}
+.rightBj .VIP{
+	float: left;
+	font: bold 14px/22px simsun;
+	padding-top: 13px;
+}
+.rightBj .attention{
+	float: right;
+	height: 22px;
+	width: 80px;
+	margin-top: 11px;
+	margin-right: 10px;
+	line-height: 22px;
+	color: #076cd2;
+	text-align: center; 
+	background: #dffbff;
+	border: 1px solid #9feaf6;
+	overflow: hidden;
+}
+.feitionVip header{
+	width: 217px;
+	height: 29px;
+	margin-top: 11px;
+	margin-left: -3px;
+	margin-bottom: 2px;
+	border-left: 2px solid #cd1a09;
+}
+.feitionVip .h5{
+	float: left;
+	padding-top: 5px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #cd1a09;
+	padding-left: 10px;
+}
+.feitionVip .more{
+	float: right;
+	padding-top: 5px;
+	line-height: 24px;
+	color: #027fd1;
+}
+.feitionVip ul{
+	margin-left: 9px;
+	width: 228px;
+	background: url(.././img/feitionVipulbj.png) repeat-x 1px 2px;
+}
+.feitionVip li:before{
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	background: url(.././img/sp_icon.png);
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.feitionVip li{
+	float: left;
+	padding-top: 16px;
+	height: 18px;
+	width: 114px;
+}
+.feitionVip li a{
+	vertical-align: middle;
+}
+.feitionVip .new{
+	position: relative;
+}
+.feitionVip .new span{
+	position: absolute;
+	right: -23px;
+	top: -8px;
+	width: 24px;
+	height: 14px;
+	background: url(.././img/sp_icon.png) 0 -382px;
+}
+.news header{
+	width: 217px;
+	height: 29px;
+	margin-top: 18px;
+	margin-left: -3px;
+	margin-bottom: 2px;
+	border-left: 2px solid #cd1a09;
+}
+.news .h5{
+	float: left;
+	padding-top: 5px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #cd1a09;
+	padding-left: 10px;
+}
+.news ul{
+	padding-top: 6px;
+	margin-left: 10px;
+	width: 208px;
+	background: url(.././img/feitionVipulbj.png) repeat-x;
+}
+.news li:before{
+	content: "";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	padding-right: 4px;
+	background: url(.././img/sp_icon.png) 0 -426px;
+}
+.news li{
+	height: 24px;
+	width: 208px;
+	line-height: 24px;
+}
+.news span{
+	float: right;
+	color: #cdcdcd;
+}
+.face header{
+	width: 217px;
+	height: 29px;
+	margin-top: 10px;
+	margin-left: -3px;
+	margin-bottom: 2px;
+	border-left: 2px solid #cd1a09;
+}
+.face .h5{
+	float: left;
+	padding-top: 5px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #cd1a09;
+	padding-left: 10px;
+}
+.face nav{
+	width: 210px;
+	font-size: 14px;
+	margin-left: 8px;
+}
+.face nav a{
+	float: left;
+	padding: 0 20px 0 20px;
+	line-height: 26px;
+	border-left: 1px solid #dfdfdf;
+	background: #eeeeee;
+}
+.face .noneBorder{
+	float: left;
+	padding: 0 20px 0 20px;
+	line-height: 26px;
+	background: #eeeeee;
+	border: none;
+	color: #ffffff;
+	background: #cd1a09;
+}
+.face nav a:hover{
+	color: #ffffff;
+	border-color: #CD1A09;
+	text-decoration: none;
+	background: #cd1a09;
+}
+.face ul{
+	padding: 10px 0 16px 11px;
+}
+.face  li{
+	float: left;
+	padding-top: 6px;
+	padding-right: 14px;
+	width: 58px;
+	height: 80px;
+}
+.face li a{
+	display: block;
+	text-align: center;
+}
+.face img{
+	width: 56px;
+	height: 56px;
+	border: 1px solid #f2f2f2;
+}
+.end header{
+	width: 217px;
+	height: 29px;
+	/*margin-top: 10px;*/
+	margin-left: -3px;
+	margin-bottom: 2px;
+	border-left: 2px solid #cd1a09;
+}
+.end .h5{
+	float: left;
+	padding-top: 5px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #cd1a09;
+	padding-left: 10px;
+}
+.end ul{
+	padding-top: 12px;
+	margin-left: 10px;
+	width: 208px;
+	background: url(.././img/feitionVipulbj.png) repeat-x;
+}
+.end li{
+	height: 21px;
+	line-height: 21px;
+	margin-top: 5px;
+}
+.end .ico1 span{
+	display: inline-block;
+	width: 18px;
+	height: 21px;
+	padding-right: 10px;
+	background: url(.././img/sp_icon.png) no-repeat 0 -462px;
+	vertical-align: middle;
+}
+.end .ico2 span{
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	padding-right: 10px;
+	background: url(.././img/sp_icon.png) no-repeat 0 -920px;
+	vertical-align: middle;
+}
+.end .ico3 span{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	padding-right: 10px;
+	background: url(.././img/sp_icon.png) no-repeat 0 -954px;
+	vertical-align: middle;
+}
+.end .ico3 a{
+	color: #027FD1;
+}
+.footer{
+	margin-top: 20px;
+	padding-top: 23px;
+	height: 70px;
+	border-top: 1px solid #cccccc;
+	text-align: center;
+}
+.footer nav a{
+	font-weight: bold;
+	padding-right: 12px;
+}
+.footer p{
+	padding-top: 10px;
+}
+.footer p a{
+	padding-right: 24px;
+}
+.footer p span{
+	display: inline-block;
+	padding-left: 9px;
+	height: 18px;
+	width: 15px;
+	vertical-align: middle;
+	background: url(.././img/sp_bg.png) no-repeat -185px -135px;
+}
